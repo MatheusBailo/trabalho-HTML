@@ -32,6 +32,7 @@ section{
     align-items: center;
     justify-content: center;
     background-image: url(./images/bonnie.jpg);
+    flex-wrap: wrap;
 }
 
 .wrap-img{
@@ -63,6 +64,7 @@ section{
     border-radius: 6px;
     transition: .3 linear;
     border: 2px solid #dee7e7;
+    flex-wrap: wrap;
 }
 .post-content{
     background-color: #282832;
@@ -72,6 +74,7 @@ section{
     border: 2px solid #dee7e7;
     transform: translateY(-60px);
     transition: all 150ms ease-in-out;
+    
 }
 .post-content h3{
     font-size: 16px;
@@ -154,6 +157,7 @@ section{
     justify-content: center;
     transition: all 150ms ease-in-out;
     border-color: #77181e;
+    flex-wrap: wrap;
 }
 .cartao:hover{
     filter: grayscale(0);
@@ -175,6 +179,7 @@ section{
     transition: all 150ms ease-in-out;
     border-color: #77181e;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 .cartao1:hover{
     filter: grayscale(0);
@@ -198,6 +203,7 @@ section{
     transition: all 150ms ease-in-out;
     border-color: #77181e;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 .cartao2:hover{
     filter: grayscale(0);
@@ -221,6 +227,7 @@ section{
     transition: all 150ms ease-in-out;
     border-color: #77181e;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 .cartao3:hover{
     filter: grayscale(0);
@@ -244,6 +251,7 @@ section{
     transition: all 150ms ease-in-out;
     border-color: #77181e;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 .cartao4:hover{
     filter: grayscale(0);
@@ -399,6 +407,7 @@ section{
     #s1{
        padding: 80px 20px 0px 20px;
        gap: 0;
+       background-image: url(./images/Celular.jpg);
     }
     .wrap-img{
         width: 300px;
@@ -410,7 +419,7 @@ section{
     #s2{
         padding: 10vh 0px;
         height: auto;
-        background-image: url("./assets/papermobile.webp") ;
+        background-image: url(./images/celular\ 1.webp) ;
     }
     .formulario{
         width: 78%;
